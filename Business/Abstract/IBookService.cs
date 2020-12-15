@@ -10,8 +10,8 @@ namespace Business.Abstract
         List<Book> GetAll();
         Book GetById(int id);
         List<Book> GetByAuthorId(int id);
-        void Add();
-        void Delete();
-        void Update();
+        void Add(Book book);
+        void Delete(Book book);
+        void Update(Book book);
     }
 }
